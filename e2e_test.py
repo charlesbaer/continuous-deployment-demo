@@ -18,5 +18,3 @@ response = urllib2.urlopen("{}/get_author/ulysses".format(HOST))
 html = response.read()
 assert(html == "James Joyce")
 # [END e2e]
-
-
